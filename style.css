@@ -1,0 +1,16 @@
+
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    border-radius: 10px ;
+}
+footer{
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    border-radius: 10px ;
+}
