@@ -1,4 +1,6 @@
-
+h2{
+    text-align: center;
+}
 body{
     background-color: antiquewhite;
 }
@@ -7,10 +9,37 @@ header{
     color: white;
     text-align: center;
     border-radius: 10px ;
+    padding: 1em;
+}
+aside{
+    background-color: blueviolet;
+    border-radius: 10px ;
+    padding: 1em;
+    color: white;
+}
+nav{
+    display: flex;
+}
+nav a{
+    display: block;
+    flex-direction: row;
 }
 footer{
     background-color: darkgray;
     color: white;
     text-align: center;
+    border-radius: 10px ;
+    padding: 1em;
+}
+.Principale{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.opération{
+    background-color: black;
+    color: white;
+    padding: 1em;
     border-radius: 10px ;
 }
