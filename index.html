@@ -10,38 +10,50 @@
 <body>
     <header>
         <h1>Calcul Mental</h1>
+        <blockquote cite="https://www.huxley.net/bnw/four.html">
+            <p> "Les choses ne sont pas difficiles à faire, ce qui est difficile c'est de nous mettre en état de les faire."</p>
+        </blockquote>
+
+        <cite>– Constantin Brancusi </cite>
+
     </header>
     <nav>
         <a title="Titre du lien" href="http://www.adresse-du-lien.fr">
-        Ceci est un lien</a>
+        Multiplications</a>
         <a title="Titre du lien" href="http://www.adresse-du-lien.fr">
-        Ceci est un lien</a>
+        Additions</a>
         <a title="Titre du lien" href="http://www.adresse-du-lien.fr">
-            Ceci est un lien</a>
+        Divisions</a>
     </nav>
     <div class="Principale">
-        <aside>
-            <h2>Règlages</h2>
-            <form>
-                <label for="opération">Choisissez une opération:</label>
-                <select id="opération">
-                    <option value="">--Opération--</option>
-                    <option value="dog">Dog</option>
-                    <option value="cat">Cat</option>
-                    <option value="hamster">Hamster</option>
-                    <option value="parrot">Parrot</option>
-                    <option value="spider">Spider</option>
-                    <option value="goldfish">Goldfish</option>
-                </select>
 
-            </form>
-        </aside>
         <section class="opération">
+            <p class="nombre1"></p>
+            <p class="nombre2"></p>
             <form>
-                formulaire
+                <label for="reponse">Réponse:</label>
+
+                <input type="text" id="reponse" name="name" required
+                       minlength="4" maxlength="8" size="10">
             </form>
         </section>
     </div>
+    <aside>
+        <h2>Règlages</h2>
+        <form>
+            <label for="opération">Choisissez une opération:</label>
+            <select id="opération">
+                <option value="">--Difficulté--</option>
+                <option value="dog">CM 1</option>
+                <option value="cat">CM 2</option>
+                <option value="hamster">Sixième</option>
+                <option value="parrot">Docteur Strange</option>
+                <option value="spider">Captain Marvel</option>
+                <option value="goldfish">Professeur X</option>
+            </select>
+
+        </form>
+    </aside>
     <footer>
         Page réalisée par M. Olivier Elophe
     </footer>
